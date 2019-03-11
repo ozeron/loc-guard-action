@@ -25,7 +25,7 @@ RUN	apk add --no-cache \
 	jq
 
 ## Now I am going to copy my shitty bash script into the image.
-COPY guard-loc.sh /usr/bin/guard-loc
+COPY guard-loc /usr/bin/guard-loc
 
 ## The cmd for the container defines what arguments should be executed when
 ## it is run.
