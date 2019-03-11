@@ -33,4 +33,4 @@ COPY guard-loc guard-loc
 ## The cmd for the container defines what arguments should be executed when
 ## it is run.
 ## We are just going to call back to my shitty script.
-CMD ["./guard-loc"]
+CMD ["/bin/bash guard-loc"]
